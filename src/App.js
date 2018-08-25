@@ -6,7 +6,6 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-      heroku travis test
         <img src={logo} className="App-logo" alt="logo" />
         <div>Loading...</div>
       </div>
