@@ -1,9 +1,12 @@
 language: node_js
 node_js:
-  - 9.9.0
+- 9.9.0
 cache:
   directories:
-    - node_modules
+  - node_modules
 script:
-  - npm run build
-  - npm test
+- npm run build
+- npm test
+deploy:
+  api_key:
+    secure: hfUNU7QDCc1t479uSzXeY109Eq0ve2HO4pcCLixsI5myg0DQM68oBIMjsZ6EXVXvzh0tFRWwv81CAaL1obPiEpvCiBmbJzODM06FSHfvxACQb8pZxIbjKmuKK5tXQt7RtsDmXk7No3DG8u2W0iXRQ4aAWgv04J1o5S2WwEDOLuqmdXLrrLoljyWo9W8MW3ETFqM9T26iwBuaAVFqAFgN1TqUESUO9SFsnQob67WrgvUkKcJf9pqIzpcP4L33BYn9QZCNZbf3yClapvoyLO9nx8KNMWRYHvsXeDLLDgevS7sIV5uas/xfvlhMCqKUITuPo4dC5M9YdMYU5GmpSl0VNOTnq0Is0pSzMBZVXw6KKAJqHnBTUhKufor7o2YsD/0qIeuLKp7elw7gzL4ruR4kj+RaBOfQZX0U1cLowTrWUsTbHcSLTlfyDnCsTzDB867Y07L0UtyO17yZ90ruwtXrdeWeFIrdy50UG3yERzRK1JKHr13Km5eDtDJ0hBUKRVvfJ2/pHnVnJTL8ahhGAGDEghe7BxhIH/R8W2/w9QVAaOE1OBdYEj3fU/aeV8ZzXvvqZEff46umlAEOG4/gKFjjGCmWWdeuFBKyIwielCoGQHl7qDfWgwX/k/RDtvbxw14iBTJyDyzZsXMiSQ0X0J61iIrFux0f5YOTNbJtqoV8Xa4=
