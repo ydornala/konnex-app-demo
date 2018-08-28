@@ -13,7 +13,8 @@
 
 
 .variation-1 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
+  /* animation: App-logo-spin infinite 20s linear; */
+  animation: beat 1s infinite alternate;
   height: 80px;
 }
 
@@ -30,6 +31,16 @@
 
 .App-intro {
   font-size: large;
+}
+
+@keyframes beat {
+  from {
+    transform: scale(1);  
+  }
+
+  to {
+    transform: scale(1.2);
+  }
 }
 
 @keyframes App-logo-spin {
