@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './konnex-logo.jpg';
 import svglogo from './konnex-logo.svg';
 import svglogo_2 from './konnex-logo-2.svg';
+import svglogo_3 from './konnex-with-beat.svg';
 import './App.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
@@ -28,6 +29,12 @@ class App extends Component {
               <img src={svglogo_2} className="App-logo" alt="logo" />
             </div>
           </div>
+
+          <div className="col">
+          <div className="variation-4">
+          <img src={svglogo_3} className="App-logo" alt="logo" />
+          </div>
+        </div>
         </div>
       </div>
     );
