@@ -8,7 +8,7 @@ script:
 - npm run build
 - npm test
 deploy:
-  skip_clean: true
+  # skip_clean: true
   provider: heroku
   app: konnex-app
   api_key:
