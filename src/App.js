@@ -3,6 +3,8 @@ import logo from './konnex-logo.jpg';
 import svglogo from './konnex-logo.svg';
 import svglogo_2 from './konnex-logo-2.svg';
 import svglogo_3 from './konnex-with-beat.svg';
+import svg_loading from './konnex-with-beat_copy.svg';
+
 import './App.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
@@ -31,10 +33,11 @@ class App extends Component {
           </div>
 
           <div className="col">
-          <div className="variation-4">
-          <img src={svglogo_3} className="App-logo" alt="logo" />
+            <div className="variation-4">
+              <img src={svglogo_3} className="App-logo" alt="logo" />
+              <img src={svg_loading} className="App-logo" alt="logo" />
+            </div>
           </div>
-        </div>
         </div>
       </div>
     );

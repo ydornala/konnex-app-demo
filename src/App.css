@@ -18,8 +18,12 @@
   height: 80px;
 }
 
-.variation-4 {
-  width: 100px;
+.variation-3, .variation-4 {
+  width: 100px;  
+}
+
+.variation-4 img {
+  width: 100%;
 }
 
 .App-header {
